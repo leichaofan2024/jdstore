@@ -17,4 +17,26 @@
  @import "bootstrap";
  @import "font-awesome";
 
- 
+ .navbarstyle {
+   background-color:#37474F;
+
+ }
+ .welcomestyle {
+   background-color: #90A4AE;
+   height:700px;
+   margin-top:-60px;
+   padding-top:60px;
+
+ }
+ .footerstyle {
+   background-color:#212121;
+   color:#FAFAFA;
+   margin:0px;
+   font-size:40px;
+ }
+   #search-id {
+    width: 200px;
+    margin-top: 7px;
+    margin-left:50px;
+
+   }
