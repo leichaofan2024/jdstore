@@ -18,21 +18,59 @@
  @import "font-awesome";
 
  .navbarstyle {
-   background-color:#37474F;
+  background-color:#FAFAFA;
+   width:100%;
+   position:fixed;
+   z-index:10;
+ }
+.change h1 {
+  color:#66BB6A;
+  float:left;
+}
+ .change h1:hover {
+   color:#e53935;
 
  }
- .welcomestyle {
-   background-color: #90A4AE;
-   height:700px;
-   margin-top:-60px;
-   padding-top:60px;
+ .ch {
+   position:relative;
+   margin-top:80px;
+ }
+ .kuai {
+   width:200px;
+   height:140px;
+
 
  }
+ .change1 h2 {
+   color:#512DA8;
+   float:left;
+ }
+ .change1 h2:hover{
+   color:#FBC02D;
+ }
+
+ .bodyindex{
+   margin-top:50px;
+
+   z-index:-1;
+   min-height:100%;
+   margin-bottom:70px;
+
+ }
+
+
  .footerstyle {
-   background-color:#212121;
-   color:#FAFAFA;
-   margin:0px;
-   font-size:40px;
+   background-color:#FAFAFA;
+   color:#263238;
+  position:fixed;
+  height:70px;
+   text-align:center;
+   width:100%;
+  bottom:0;
+  padding:7px;
+   font-size:20px;
+  left:0;
+   z-index:101;
  }
  // 以下为搜索专用
    #search-id {

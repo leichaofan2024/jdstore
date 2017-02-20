@@ -2,7 +2,7 @@ class ProductsController < ApplicationController
   before_action :current_user_required
   before_action :validate_search_key, only: [:search]
   def index
-    @product = Product.all
+    @products = Product.all
   end
   def show
     @product = Product.find(params[:id])
